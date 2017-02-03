@@ -54,6 +54,7 @@ class PgyerTask extends DefaultTask {
 
             multipartBuilder.addFormDataPart("_api_key", new String(project.pgyer._api_key))
             multipartBuilder.addFormDataPart("uKey", new String(project.pgyer.uKey))
+            multipartBuilder.addFormDataPart("updateDescription", new String(project.pgyer.updateDescription))
 
 
             multipartBuilder.addFormDataPart("file",
